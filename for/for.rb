@@ -7,7 +7,21 @@ puts
 
 y = [1, 2, 3, 4, 5]
 for i in y
-    puts i
+  puts i
+end
+puts
+
+for x in y
+  break if x % 2 == 0
+  puts x
+end
+puts
+
+for x in y
+  if x % 2 == 0
+    break
+  end
+  puts x
 end
 puts
 
